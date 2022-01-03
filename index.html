@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="script.js" defer></script>
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Ada Lovelace</h1>
+      <nav>
+        <ul>
+          <a href="#about-me"><li>About Me</li></a>
+          <a href="#projects"><li>Projects</li></a>
+          <a href="#"><li>Skills</li></a>
+          <a href="#"><li>Contact</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <h2>About Me</h2>
+          <p>
+            Hi! I'm Ada, Countess of Lovelace and am an English mathematician
+            and writer, chiefly known for my work on Charles Babbage's proposed
+            mechanical general-purpose computer, the Analytical Engine.
+          </p>
+          <p>
+            I am one of the first to recognize that machines have applications
+            beyond pure calculation, and to have published the first algorithm
+            intended to be carried out by such a machine.
+          </p>
+          <p>
+            In my free time I like to read about scientific developments,
+            mathematics, and computational mathematics. I also like to take my
+            chances of winning big.
+          </p>
+          <p>
+            Fun fact! I've been programing for
+            <span id="time-container">0</span> seconds!
+          </p>
+        </div>
+        <img
+          src="https://www.biography.com/.image/t_share/MTE4MDAzNDEwODQwOTQ2MTkw/ada-lovelace-20825279-1-402.jpg"
+          alt="A photo of Ada Lovelace"
+        />
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <details>
+          <summary><h3>The first computer program</h3></summary>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Diagram_for_the_computation_of_Bernoulli_numbers.jpg/220px-Diagram_for_the_computation_of_Bernoulli_numbers.jpg"
+            alt="Lovelace's diagram from note G, the first published computer
+          algorithm"
+          />
+          <p>
+            The world's first computer program for computing Bernoulli numbers.
+          </p>
+        </details>
+        <details>
+          <summary><h3>The Analytical Engine</h3></summary>
+          <img
+            src="https://images2.minutemediacdn.com/image/upload/c_fit,f_auto,fl_lossy,q_auto,w_728/v1555925585/shape/mentalfloss/analyticalmachine_babbage_london.jpg?itok=5vRTwQjb"
+            alt="An original model of part of the Analytical Engine"
+          />
+          <p>
+            I helped Charles Babbage on topics ranging from math to computation
+            that helped the development of the Analytical Engine
+          </p>
+        </details>
+        <details>
+          <summary><h3>The Ada programming language</h3></summary>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Ada_Mascot_with_slogan.svg/220px-Ada_Mascot_with_slogan.svg.png"
+            alt='Ada mascot, a black and cobalt blue hummingbird, flying above the
+          slogan "Time-tested, safe and secure"'
+          />
+          <p>
+            My work inspired the United States Department of Defense to name
+            their new programming language after me.
+          </p>
+        </details>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-aws"></i>
+          <i class="fab fa-sketch"></i>
+          <i class="fab fa-figma"></i>
+          <i class="fab fa-git"></i>
+          <i class="fab fa-chrome"></i>
+          <i class="fas fa-terminal"></i>
+          <i class="fas fa-universal-access"></i>
+          <i class="fab fa-npm"></i>
+          <i class="fab fa-node"></i>
+          <i class="fab fa-github"></i>
+        </div>
+      </section>
+      <footer>Made with <span class="heart">♥</span> in London</footer>
+    </main>
+  </body>
+</html>
